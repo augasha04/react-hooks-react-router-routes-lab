@@ -1,9 +1,10 @@
-import React from "react";
-import { directors } from "../data";
+import React from 'react';
+import { directors } from '../data';
 
 function Directors() {
-  return <div>
-     <h1>Directors Page</h1>
+  return (
+    <div>
+      <h1>Directors Page</h1>
       {directors.map(director => (
         <div key={director.name}>
           <h2>{director.name}</h2>
@@ -14,7 +15,8 @@ function Directors() {
           </ul>
         </div>
       ))}
-  </div>;
+    </div>
+  );
 }
 
 export default Directors;

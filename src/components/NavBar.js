@@ -1,9 +1,8 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 function NavBar() {
-  return 
-  
+  return (
     <nav>
       <ul>
         <li>
@@ -22,9 +21,7 @@ function NavBar() {
         </li>
       </ul>
     </nav>
-  
-
- 
+  );
 }
 
 export default NavBar;
